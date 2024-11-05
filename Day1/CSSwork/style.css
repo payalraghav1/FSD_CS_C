@@ -1,0 +1,42 @@
+body{
+    background-color:salmon;
+}
+.container{
+    background-color:aquamarine;
+    height: 300px;
+    border: 2px solid palevioletred;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,fr);
+} 
+.child1{
+    background-color: black;
+    grid-row-start: 1;
+    grid-row-end: 
+     ;
+}
+/*.child1,.child2,.child3{
+    height: 200px;
+    width: 200px;
+    border: 1px solid plum;
+display: inline-block;
+}
+.child1{
+    background-color: brown;
+}
+.child2{
+    background-color:red;
+}
+.child3{
+    background-color: blueviolet;
+}
+/*.child1{
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    border: 1px dotted crimson;
+    color: antiquewhite;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
